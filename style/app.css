@@ -1,5 +1,7 @@
 @import url("grid.css");
 @import url("nav.css");
+@import url("rsvp.css");
+@import url("travel.css");
 
 html {
   margin: 0;
@@ -52,20 +54,11 @@ p {
   font-family: Baskerville;
   font-weight: lighter;
   font-size: 1.25em;
+  text-align: left;
 }
 
 article img {
   width: 100%;
-}
-
-.form-wrapper {
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-.form {
-  max-width: 100%;
 }
 
 /*
@@ -105,11 +98,6 @@ article img {
 
   article {
     padding: 2em;
-  }
-
-  .form {
-    width: 720px;
-    height: 480px;
   }
 }
 
@@ -151,10 +139,5 @@ article img {
 
   article {
     padding: 1em;
-  }
-
-  .form {
-    width: 720px;
-    height: 480px;
   }
 }

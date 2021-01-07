@@ -1,0 +1,35 @@
+.map-wrapper {
+  height: auto;
+  text-align: center;
+}
+
+.map {
+  width: 100%;
+  min-height: 360px;
+}
+
+/*
+*
+*
+* LARGE DEVICES
+*
+*
+*/
+@media (min-width: 1020px) {
+  .map {
+    height: 100vh;
+  }
+}
+
+/*
+*
+*
+* SMALL DEVICES
+*
+*
+*/
+@media (max-width: 1019px) {
+  .map {
+    height: 50vh;
+  }
+}

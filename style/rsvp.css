@@ -1,0 +1,35 @@
+.form-wrapper {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+}
+
+.form {
+  height: 100vh;
+}
+
+/*
+*
+*
+* LARGE DEVICES
+*
+*
+*/
+@media (min-width: 1020px) {
+  .form {
+    width: 720px;
+  }
+}
+
+/*
+*
+*
+* SMALL DEVICES
+*
+*
+*/
+@media (max-width: 1019px) {
+  .form {
+    width: 720px;
+  }
+}
