@@ -1,0 +1,78 @@
+header {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+nav {
+  text-align: center;
+  background-color: #fcf0bc;
+  color: #2e322d;
+  font-family: Baskerville;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+
+}
+
+/*
+*
+*
+* LARGE DEVICES
+*
+*
+*/
+@media (min-width: 1020px) {
+  nav {
+    font-size: 1.5em;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1em;
+  }
+
+  nav li {
+
+  }
+
+  nav a:hover {
+    border-bottom: 1px solid #2e322d;
+  }
+}
+
+/*
+*
+*
+* SMALL DEVICES
+*
+*
+*/
+@media (max-width: 1019px) {
+  nav {
+    font-size: 3em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+
+  nav li {
+    padding: .5em 0 .5em 0;
+    width: 100%;
+  }
+
+  nav a:active, nav a:hover {
+    background-color: #2e322d;
+    color: #fcf0bc;
+  }
+}

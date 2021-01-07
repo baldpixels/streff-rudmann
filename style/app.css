@@ -1,0 +1,160 @@
+@import url("grid.css");
+@import url("nav.css");
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2e322d;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  width: 100%;
+  text-align: center;
+}
+
+article {
+
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #fcf0bc;
+  font-family: Baskerville;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #fcf0bc;
+  font-family: Baskerville;
+  font-weight: lighter;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin: 0;
+  padding: 1em;
+  background-color: #fcf0bc;
+  font-family: Baskerville;
+  font-weight: lighter;
+  font-size: 1.25em;
+}
+
+article img {
+  width: 100%;
+}
+
+.form-wrapper {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.form {
+  max-width: 100%;
+}
+
+/*
+*
+*
+* LARGE DEVICES
+*
+*
+*/
+@media (min-width: 1020px) {
+  nav {
+    font-size: 1.5em;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 1em;
+  }
+
+  nav li {
+
+  }
+
+  nav a:hover {
+    border-bottom: 1px solid #2e322d;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  article {
+    padding: 2em;
+  }
+
+  .form {
+    width: 720px;
+    height: 480px;
+  }
+}
+
+/*
+*
+*
+* SMALL DEVICES
+*
+*
+*/
+@media (max-width: 1019px) {
+  nav {
+    font-size: 3em;
+  }
+
+  nav ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+  }
+
+  nav li {
+    padding: .5em 0 .5em 0;
+    width: 100%;
+  }
+
+  nav a:active, nav a:hover {
+    background-color: #2e322d;
+    color: #fcf0bc;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  article {
+    padding: 1em;
+  }
+
+  .form {
+    width: 720px;
+    height: 480px;
+  }
+}
