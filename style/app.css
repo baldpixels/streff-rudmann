@@ -84,6 +84,7 @@ article img {
   .text-box {
     padding: 1.5em;
     margin: 0 1.5em 0 1.5em;
+    max-width: 480px;
   }
 
   p {
