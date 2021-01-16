@@ -63,6 +63,14 @@ p {
   font-weight: bold;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  border-bottom: 1px solid #2e322d;
+}
+
 article img {
   width: 100%;
 }

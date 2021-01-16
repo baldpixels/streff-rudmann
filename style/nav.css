@@ -60,7 +60,7 @@ nav li {
 
   }
 
-  nav a:hover {
+  a:hover {
     border-bottom: 1px solid #2e322d;
   }
 
@@ -95,7 +95,7 @@ nav li {
     width: 100%;
   }
 
-  nav a:active, nav a:hover {
+  a:active, nav a:hover {
     background-color: #2e322d;
     color: #fcf0bc;
   }
