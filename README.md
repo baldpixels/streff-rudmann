@@ -1,2 +1,2 @@
-# baldpixels.github.io
+# streff-rudmann
 Streff-Rudmann Wedding
